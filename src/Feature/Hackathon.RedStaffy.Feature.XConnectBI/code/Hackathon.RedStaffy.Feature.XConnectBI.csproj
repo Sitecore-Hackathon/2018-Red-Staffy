@@ -109,9 +109,11 @@
     <Content Include="sitecore\shell\client\Applications\XConnectBI\favicon.ico" />
     <Content Include="sitecore\shell\client\Applications\XConnectBI\fontawesome-webfont.912ec66d7572ff821749.svg" />
     <Content Include="sitecore\shell\client\Applications\XConnectBI\index.aspx" />
+    <Content Include="sitecore\shell\client\Applications\XConnectBI\inline.16c576cb5dfa81fb50df.bundle.js" />
     <Content Include="sitecore\shell\client\Applications\XConnectBI\inline.e1d0a073123a33a410c9.bundle.js" />
     <Content Include="sitecore\shell\client\Applications\XConnectBI\line.567f57385ea3dde2c9ae.gif" />
     <Content Include="sitecore\shell\client\Applications\XConnectBI\main.34e74774e26771f5eea3.bundle.js" />
+    <Content Include="sitecore\shell\client\Applications\XConnectBI\main.4291cb836ab640848fcb.bundle.js" />
     <Content Include="sitecore\shell\client\Applications\XConnectBI\polyfills.bea0afe2151b89311aa1.bundle.js" />
     <Content Include="sitecore\shell\client\Applications\XConnectBI\roboto-v15-latin-regular.3d3a53586bd78d1069ae.svg" />
     <Content Include="sitecore\shell\client\Applications\XConnectBI\styles.bc0a940125cd2edb87d4.bundle.css" />

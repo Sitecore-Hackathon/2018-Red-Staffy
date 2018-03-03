@@ -26,25 +26,22 @@ export class BiDashboardComponent implements OnInit {
   ) { }
 
   ngOnInit() {
+    // init dates and controls
     const today = new Date();
-    const month = today.getMonth();
-    const year = today.getFullYear();
-    const prevMonth = (month === 0) ? 11 : month - 1;
-    const prevYear = (prevMonth === 11) ? year - 1 : year;
-    const nextMonth = (month === 11) ? 0 : month + 1;
-    const nextYear = (nextMonth === 0) ? year + 1 : year;
     const monthAgoDate = new Date();
     monthAgoDate.setDate(today.getDate() - 30);
-    this.rangeDates = [monthAgoDate, today];
+    this.rangeDates = [monthAgoDate, today];  // initialize to and from dates for the datepicker control
 
     this.loadChart();
 
   }
 
   loadChart() {
+    // get the ISO version of the dates
     let fromDate = this.rangeDates[0].toISOString();
     let toDate = this.rangeDates[1].toISOString();
 
+    // append the dates to the widget url as querystring
     this.pbiUrl = this.sanitizer.bypassSecurityTrustResourceUrl('https://app.powerbi.com/view?r=eyJrIjoiMWM2OGFlZGQtMTZhZC00ZDYxLWE3OTgtNzU4NzU3ZDBkMTljIiwidCI6IjA3ZTYyMzgxLTU0ZjAtNDNhMS05MjhiLTJmMzBjNTQ5NDc1YSJ9&from=' + fromDate + '&to=' + toDate);
   }
 

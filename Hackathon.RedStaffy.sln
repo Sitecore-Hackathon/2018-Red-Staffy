@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2008
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{17DD5718-6E13-4F2C-9738-B410396D4552}"
 	ProjectSection(SolutionItems) = preProject
@@ -39,6 +39,11 @@ EndProject
 Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "Hackathon.RedStaffy.Feature.XConnectBI.TDS.Core", "src\Feature\Hackathon.RedStaffy.Feature.XConnectBI\tds\Hackathon.RedStaffy.XConnectBI.TDS.Core\Hackathon.RedStaffy.Feature.XConnectBI.TDS.Core.scproj", "{B27E8716-BE70-44B7-A0C5-0AC27BA6CFF1}"
 EndProject
 Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "Hackathon.RedStaffy.Feature.XConnectBI.TDS.Master", "src\Feature\Hackathon.RedStaffy.Feature.XConnectBI\tds\Hackathon.RedStaffy.XConnectBI.TDS.Master\Hackathon.RedStaffy.Feature.XConnectBI.TDS.Master.scproj", "{EA27FA22-17A4-4A10-BE63-49F7755B91C1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".tds", ".tds", "{639E631F-A379-480C-B789-2311A0F43997}"
+	ProjectSection(SolutionItems) = preProject
+		TdsGlobal.config = TdsGlobal.config
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

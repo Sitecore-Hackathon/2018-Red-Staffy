@@ -1,9 +1,12 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.12
+VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{17DD5718-6E13-4F2C-9738-B410396D4552}"
+	ProjectSection(SolutionItems) = preProject
+		src\Feature\README.md = src\Feature\README.md
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{4FDA1DCD-D33E-447E-91C1-F4AE818E2CF0}"
 EndProject
@@ -29,12 +32,28 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{D27C83
 		documentation\images\hackathon.png = documentation\images\hackathon.png
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "XConnectBI", "XConnectBI", "{417E08E6-D8AC-4B89-B097-93A3F76BB09F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hackathon.RedStaffy.XConnectBI", "src\Feature\Hackathon.RedStaffy.XConnectBI\code\Hackathon.RedStaffy.XConnectBI.csproj", "{411768CB-1ABA-43CF-BFF7-5C4DCE9335F1}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{411768CB-1ABA-43CF-BFF7-5C4DCE9335F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{411768CB-1ABA-43CF-BFF7-5C4DCE9335F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{411768CB-1ABA-43CF-BFF7-5C4DCE9335F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{411768CB-1ABA-43CF-BFF7-5C4DCE9335F1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D27C83D2-2EAF-4E44-A1ED-2B3C2EBB5854} = {DAFED8F5-6CBD-4384-AAD6-DC3BCCF24911}
+		{417E08E6-D8AC-4B89-B097-93A3F76BB09F} = {17DD5718-6E13-4F2C-9738-B410396D4552}
+		{411768CB-1ABA-43CF-BFF7-5C4DCE9335F1} = {417E08E6-D8AC-4B89-B097-93A3F76BB09F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {311DA37D-528B-43B2-A99B-E7253F841D46}

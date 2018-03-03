@@ -7,12 +7,9 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>ea27fa22-17a4-4a10-be63-49f7755b91c1</ProjectGuid>
     <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
-    <SourceWebPhysicalPath>
-    </SourceWebPhysicalPath>
-    <SourceWebProject>
-    </SourceWebProject>
-    <SourceWebVirtualPath>
-    </SourceWebVirtualPath>
+    <SourceWebPhysicalPath>..\..\code</SourceWebPhysicalPath>
+    <SourceWebProject>{411768cb-1aba-43cf-bff7-5c4dce9335f1}|src\Feature\Hackathon.RedStaffy.Feature.XConnectBI\code\Hackathon.RedStaffy.Feature.XConnectBI.csproj</SourceWebProject>
+    <SourceWebVirtualPath>/Hackathon.RedStaffy.Feature.XConnectBI.csproj</SourceWebVirtualPath>
     <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
     <EnableUpdateable>true</EnableUpdateable>
     <UseMerge>true</UseMerge>
@@ -23,6 +20,9 @@
     <AssemblyName>Hackathon.RedStaffy.XConnectBI.TDS.Master</AssemblyName>
     <Name>Hackathon.RedStaffy.Feature.XConnectBI.TDS.Master</Name>
     <RootNamespace>Hackathon.RedStaffy.XConnectBI.TDS.Master</RootNamespace>
+    <ManageRoles>False</ManageRoles>
+    <SitecoreDatabase>master</SitecoreDatabase>
+    <AssemblyStatus>Exclude</AssemblyStatus>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -41,6 +41,12 @@
     <AssemblyAttributes Include="AssemblyVersion">
       <Value>$(AssemblyVersion)</Value>
     </AssemblyAttributes>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\code\Hackathon.RedStaffy.Feature.XConnectBI.csproj">
+      <Project>{411768cb-1aba-43cf-bff7-5c4dce9335f1}</Project>
+      <Name>Hackathon.RedStaffy.Feature.XConnectBI</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\HedgehogDevelopment\SitecoreProject\v9.0\HedgehogDevelopment.SitecoreProject.targets" Condition="Exists('$(MSBuildExtensionsPath)\HedgehogDevelopment\SitecoreProject\v9.0\HedgehogDevelopment.SitecoreProject.targets')" />
 </Project>

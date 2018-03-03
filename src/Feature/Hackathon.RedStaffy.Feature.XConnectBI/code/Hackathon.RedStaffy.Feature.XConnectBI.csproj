@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-﻿<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props')" />
   <Import Project="..\..\..\..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.7\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\..\..\..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.7\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
   <Import Project="..\..\..\..\packages\Microsoft.Net.Compilers.2.1.0\build\Microsoft.Net.Compilers.props" Condition="Exists('..\..\..\..\packages\Microsoft.Net.Compilers.2.1.0\build\Microsoft.Net.Compilers.props')" />
@@ -185,9 +184,7 @@
     <Content Include="sitecore\shell\client\Applications\XConnectBI\fontawesome-webfont.912ec66d7572ff821749.svg" />
     <Content Include="sitecore\shell\client\Applications\XConnectBI\index.aspx" />
     <Content Include="sitecore\shell\client\Applications\XConnectBI\inline.16c576cb5dfa81fb50df.bundle.js" />
-    <Content Include="sitecore\shell\client\Applications\XConnectBI\inline.e1d0a073123a33a410c9.bundle.js" />
     <Content Include="sitecore\shell\client\Applications\XConnectBI\line.567f57385ea3dde2c9ae.gif" />
-    <Content Include="sitecore\shell\client\Applications\XConnectBI\main.34e74774e26771f5eea3.bundle.js" />
     <Content Include="sitecore\shell\client\Applications\XConnectBI\main.4291cb836ab640848fcb.bundle.js" />
     <Content Include="sitecore\shell\client\Applications\XConnectBI\polyfills.bea0afe2151b89311aa1.bundle.js" />
     <Content Include="sitecore\shell\client\Applications\XConnectBI\roboto-v15-latin-regular.3d3a53586bd78d1069ae.svg" />
@@ -224,12 +221,12 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Controllers\" />
     <Folder Include="Models\" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <TypeScriptCompile Include="apps\XConnectBI.Client\e2e\app.e2e-spec.ts" />
     <TypeScriptCompile Include="apps\XConnectBI.Client\e2e\app.po.ts" />

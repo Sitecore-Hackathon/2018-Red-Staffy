@@ -21,7 +21,7 @@
     <DeleteAppCodeCompiledFiles>true</DeleteAppCodeCompiledFiles>
     <LegacyFileReplacement>false</LegacyFileReplacement>
     <AssemblyName>Hackathon.RedStaffy.XConnectBI.TDS.Master</AssemblyName>
-    <Name>Hackathon.RedStaffy.XConnectBI.TDS.Master</Name>
+    <Name>Hackathon.RedStaffy.Feature.XConnectBI.TDS.Master</Name>
     <RootNamespace>Hackathon.RedStaffy.XConnectBI.TDS.Master</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">

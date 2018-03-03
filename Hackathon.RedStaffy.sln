@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27130.2027
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{17DD5718-6E13-4F2C-9738-B410396D4552}"
 	ProjectSection(SolutionItems) = preProject
@@ -36,6 +36,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "XConnectBI", "XConnectBI", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hackathon.RedStaffy.XConnectBI", "src\Feature\Hackathon.RedStaffy.XConnectBI\code\Hackathon.RedStaffy.XConnectBI.csproj", "{411768CB-1ABA-43CF-BFF7-5C4DCE9335F1}"
 EndProject
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "Hackathon.RedStaffy.XConnectBI.TDS.Master", "src\Feature\Hackathon.RedStaffy.XConnectBI\tds\Hackathon.RedStaffy.XConnectBI.TDS.Master\Hackathon.RedStaffy.XConnectBI.TDS.Master.scproj", "{EA27FA22-17A4-4A10-BE63-49F7755B91C1}"
+EndProject
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "Hackathon.RedStaffy.XConnectBI.TDS.Core", "src\Feature\Hackathon.RedStaffy.XConnectBI\tds\Hackathon.RedStaffy.XConnectBI.TDS.Core\Hackathon.RedStaffy.XConnectBI.TDS.Core.scproj", "{B27E8716-BE70-44B7-A0C5-0AC27BA6CFF1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -46,6 +50,18 @@ Global
 		{411768CB-1ABA-43CF-BFF7-5C4DCE9335F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{411768CB-1ABA-43CF-BFF7-5C4DCE9335F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{411768CB-1ABA-43CF-BFF7-5C4DCE9335F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA27FA22-17A4-4A10-BE63-49F7755B91C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA27FA22-17A4-4A10-BE63-49F7755B91C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA27FA22-17A4-4A10-BE63-49F7755B91C1}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{EA27FA22-17A4-4A10-BE63-49F7755B91C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA27FA22-17A4-4A10-BE63-49F7755B91C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA27FA22-17A4-4A10-BE63-49F7755B91C1}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{B27E8716-BE70-44B7-A0C5-0AC27BA6CFF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B27E8716-BE70-44B7-A0C5-0AC27BA6CFF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B27E8716-BE70-44B7-A0C5-0AC27BA6CFF1}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B27E8716-BE70-44B7-A0C5-0AC27BA6CFF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B27E8716-BE70-44B7-A0C5-0AC27BA6CFF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B27E8716-BE70-44B7-A0C5-0AC27BA6CFF1}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -54,6 +70,8 @@ Global
 		{D27C83D2-2EAF-4E44-A1ED-2B3C2EBB5854} = {DAFED8F5-6CBD-4384-AAD6-DC3BCCF24911}
 		{417E08E6-D8AC-4B89-B097-93A3F76BB09F} = {17DD5718-6E13-4F2C-9738-B410396D4552}
 		{411768CB-1ABA-43CF-BFF7-5C4DCE9335F1} = {417E08E6-D8AC-4B89-B097-93A3F76BB09F}
+		{EA27FA22-17A4-4A10-BE63-49F7755B91C1} = {417E08E6-D8AC-4B89-B097-93A3F76BB09F}
+		{B27E8716-BE70-44B7-A0C5-0AC27BA6CFF1} = {417E08E6-D8AC-4B89-B097-93A3F76BB09F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {311DA37D-528B-43B2-A99B-E7253F841D46}

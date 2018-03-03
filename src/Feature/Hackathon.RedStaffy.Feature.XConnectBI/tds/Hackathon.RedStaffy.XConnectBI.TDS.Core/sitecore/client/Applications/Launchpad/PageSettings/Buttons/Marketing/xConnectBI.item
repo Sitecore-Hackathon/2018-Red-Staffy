@@ -1,0 +1,277 @@
+----item----
+version: 1
+id: {7D01D445-F9F2-437F-BC41-048705AF380F}
+database: core
+path: /sitecore/client/Applications/Launchpad/PageSettings/Buttons/Marketing/xConnectBI
+parent: {52EF09CC-610F-46AE-801D-696E43CF3AA1}
+name: xConnectBI
+master: {00000000-0000-0000-0000-000000000000}
+template: {D4C7F5F9-8977-4E0C-B6CE-28AE8E0753E2}
+templatekey: LaunchPad-Button
+created: 20180303T075002Z
+
+----field----
+field: {D25B56D4-23B6-4462-BE25-B6A6D7F38E13}
+name: Icon
+key: icon
+content-length: 20
+
+Apps/32x32/Chart.png
+----field----
+field: {044E3FDB-22AE-4E6C-B50E-2ABDFBABD338}
+name: Link
+key: link
+content-length: 66
+
+http://sc901a.local/sitecore/shell/client/Applications/XConnectBI/
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+600
+----field----
+field: {DEC8D2D5-E3CF-48B6-A653-8E69E2716641}
+name: __Security
+key: __security
+content-length: 122
+
+ar|sitecore\Analytics Maintaining|pe|+item:read|pd|+item:read|ar|sitecore\Analytics Reporting|pe|+item:read|pd|+item:read|
+----version----
+language: da
+version: 1
+revision: 44f0e173-2715-43ae-868f-4bab1084c97e
+
+----field----
+field: {AA4A4643-5BFC-45A7-B9D9-5183A5211D99}
+name: Text
+key: text
+content-length: 23
+
+MarketingAutomatisering
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 23
+
+MarketingAutomatisering
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171219T155222Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+44f0e173-2715-43ae-868f-4bab1084c97e
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171219T155222Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: 6f977215-7cd8-49c9-acf0-841925db1375
+
+----field----
+field: {AA4A4643-5BFC-45A7-B9D9-5183A5211D99}
+name: Text
+key: text
+content-length: 24
+
+MarketingAutomatisierung
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 24
+
+MarketingAutomatisierung
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171219T155724Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+6f977215-7cd8-49c9-acf0-841925db1375
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171219T155724Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: e4d81d17-a923-4a71-9f86-2cb8c561651f
+
+----field----
+field: {AA4A4643-5BFC-45A7-B9D9-5183A5211D99}
+name: Text
+key: text
+content-length: 10
+
+xConnectBI
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20140702T100144
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+e4d81d17-a923-4a71-9f86-2cb8c561651f
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180303T080409Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: cc255bb6-51f9-4702-823b-dd3b5394a1c9
+
+----field----
+field: {AA4A4643-5BFC-45A7-B9D9-5183A5211D99}
+name: Text
+key: text
+content-length: 16
+
+マーケティング オートメーション
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 16
+
+マーケティング オートメーション
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171219T160138Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+cc255bb6-51f9-4702-823b-dd3b5394a1c9
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171219T160138Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

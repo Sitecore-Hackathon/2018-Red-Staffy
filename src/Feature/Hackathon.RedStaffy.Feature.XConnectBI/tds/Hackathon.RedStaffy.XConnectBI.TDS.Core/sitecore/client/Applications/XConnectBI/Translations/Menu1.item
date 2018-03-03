@@ -1,0 +1,59 @@
+----item----
+version: 1
+id: {1DD22587-6450-4788-8229-A5EE4FB0B3AB}
+database: core
+path: /sitecore/client/Applications/XConnectBI/Translations/Menu1
+parent: {12990C27-0517-4EBD-A5A1-D0DE1BA41997}
+name: Menu1
+master: {00000000-0000-0000-0000-000000000000}
+template: {36D55AE2-934A-4FD4-9EBE-D8DD2D8BECB9}
+templatekey: Speak3DictionaryEntry
+created: 20180303T063712Z
+
+----field----
+field: {580C75A8-C01A-4580-83CB-987776CEB3AF}
+name: Key
+key: key
+content-length: 5
+
+MENU1
+----version----
+language: en
+version: 1
+revision: 804a7efa-7788-4703-8008-f981598138d2
+
+----field----
+field: {2BA3454A-9A9C-4CDF-A9F8-107FD484EB6E}
+name: Phrase
+key: phrase
+content-length: 16
+
+Sales and Profit
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20170830T085809Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+804a7efa-7788-4703-8008-f981598138d2
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180303T140219Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

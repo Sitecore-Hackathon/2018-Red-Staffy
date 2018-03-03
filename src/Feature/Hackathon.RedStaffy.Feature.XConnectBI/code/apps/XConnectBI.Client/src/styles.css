@@ -1,0 +1,4 @@
+/* You can add global styles to this file, and also import other style files */
+.fa, .fa-calendar:before, .fa-angle-right:before, .fa-angle-left:before {
+    font-family: FontAwesome !important;
+}

@@ -1,5 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+﻿<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props')" />
   <Import Project="..\..\..\..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.7\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\..\..\..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.7\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
   <Import Project="..\..\..\..\packages\Microsoft.Net.Compilers.2.1.0\build\Microsoft.Net.Compilers.props" Condition="Exists('..\..\..\..\packages\Microsoft.Net.Compilers.2.1.0\build\Microsoft.Net.Compilers.props')" />
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
@@ -25,6 +27,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <TypeScriptToolsVersion>2.3</TypeScriptToolsVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -163,6 +166,39 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Config\Include\Feature\Hackathon.RedStaffy.Feature.XConnectBI.config" />
+    <Content Include="apps\XConnectBI.Client\.angular-cli.json" />
+    <Content Include="apps\XConnectBI.Client\.editorconfig" />
+    <Content Include="apps\XConnectBI.Client\.gitignore" />
+    <Content Include="apps\XConnectBI.Client\.npmrc" />
+    <Content Include="apps\XConnectBI.Client\e2e\tsconfig.e2e.json" />
+    <Content Include="apps\XConnectBI.Client\package-lock.json" />
+    <Content Include="apps\XConnectBI.Client\package.json" />
+    <Content Include="apps\XConnectBI.Client\README.md" />
+    <Content Include="apps\XConnectBI.Client\src\assets\.gitkeep" />
+    <Content Include="apps\XConnectBI.Client\src\tsconfig.app.json" />
+    <Content Include="apps\XConnectBI.Client\src\tsconfig.spec.json" />
+    <Content Include="apps\XConnectBI.Client\tsconfig.json" />
+    <Content Include="apps\XConnectBI.Client\tslint.json" />
+    <Content Include="sitecore\shell\client\Applications\XConnectBI\3rdpartylicenses.txt" />
+    <Content Include="sitecore\shell\client\Applications\XConnectBI\color.c7a33805ffda0d32bd2a.png" />
+    <Content Include="sitecore\shell\client\Applications\XConnectBI\favicon.ico" />
+    <Content Include="sitecore\shell\client\Applications\XConnectBI\fontawesome-webfont.912ec66d7572ff821749.svg" />
+    <Content Include="sitecore\shell\client\Applications\XConnectBI\index.aspx" />
+    <Content Include="sitecore\shell\client\Applications\XConnectBI\inline.e1d0a073123a33a410c9.bundle.js" />
+    <Content Include="sitecore\shell\client\Applications\XConnectBI\line.567f57385ea3dde2c9ae.gif" />
+    <Content Include="sitecore\shell\client\Applications\XConnectBI\main.34e74774e26771f5eea3.bundle.js" />
+    <Content Include="sitecore\shell\client\Applications\XConnectBI\polyfills.bea0afe2151b89311aa1.bundle.js" />
+    <Content Include="sitecore\shell\client\Applications\XConnectBI\roboto-v15-latin-regular.3d3a53586bd78d1069ae.svg" />
+    <Content Include="sitecore\shell\client\Applications\XConnectBI\styles.bc0a940125cd2edb87d4.bundle.css" />
+    <Content Include="sitecore\shell\client\Applications\XConnectBI\vendor.5b936d693244e48f07c3.bundle.js" />
+    <Content Include="sitecore\shell\client\Applications\XConnectBI\fontawesome-webfont.674f50d287a8c48dc19b.eot" />
+    <Content Include="sitecore\shell\client\Applications\XConnectBI\fontawesome-webfont.af7ae505a9eed503f8b8.woff2" />
+    <Content Include="sitecore\shell\client\Applications\XConnectBI\fontawesome-webfont.b06871f281fee6b241d6.ttf" />
+    <Content Include="sitecore\shell\client\Applications\XConnectBI\fontawesome-webfont.fee66e712a8a08eef580.woff" />
+    <Content Include="sitecore\shell\client\Applications\XConnectBI\roboto-v15-latin-regular.16e1d930cf13fb7a9563.woff" />
+    <Content Include="sitecore\shell\client\Applications\XConnectBI\roboto-v15-latin-regular.38861cba61c66739c145.ttf" />
+    <Content Include="sitecore\shell\client\Applications\XConnectBI\roboto-v15-latin-regular.7e367be02cd17a96d513.woff2" />
+    <Content Include="sitecore\shell\client\Applications\XConnectBI\roboto-v15-latin-regular.9f916e330c478bbfa2a0.eot" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -187,11 +223,50 @@
     </None>
   </ItemGroup>
   <ItemGroup />
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Controllers\" />
+    <Folder Include="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <TypeScriptCompile Include="apps\XConnectBI.Client\e2e\app.e2e-spec.ts" />
+    <TypeScriptCompile Include="apps\XConnectBI.Client\e2e\app.po.ts" />
+    <TypeScriptCompile Include="apps\XConnectBI.Client\src\app\app.component.spec.ts" />
+    <TypeScriptCompile Include="apps\XConnectBI.Client\src\app\app.component.ts" />
+    <TypeScriptCompile Include="apps\XConnectBI.Client\src\app\app.module.ts" />
+    <TypeScriptCompile Include="apps\XConnectBI.Client\src\app\bi-dashboard\bi-dashboard.component.spec.ts" />
+    <TypeScriptCompile Include="apps\XConnectBI.Client\src\app\bi-dashboard\bi-dashboard.component.ts" />
+    <TypeScriptCompile Include="apps\XConnectBI.Client\src\environments\environment.prod.ts" />
+    <TypeScriptCompile Include="apps\XConnectBI.Client\src\environments\environment.ts" />
+    <TypeScriptCompile Include="apps\XConnectBI.Client\src\main.ts" />
+    <TypeScriptCompile Include="apps\XConnectBI.Client\src\polyfills.ts" />
+    <TypeScriptCompile Include="apps\XConnectBI.Client\src\test.ts" />
+    <TypeScriptCompile Include="apps\XConnectBI.Client\src\typings.d.ts" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="apps\XConnectBI.Client\disconnected-mode.conf.js" />
+    <Content Include="apps\XConnectBI.Client\karma.conf.js" />
+    <Content Include="apps\XConnectBI.Client\mock\access.js" />
+    <Content Include="apps\XConnectBI.Client\mock\context.js" />
+    <Content Include="apps\XConnectBI.Client\mock\translate.js" />
+    <Content Include="apps\XConnectBI.Client\protractor.conf.js" />
+    <Content Include="apps\XConnectBI.Client\src\app\app.component.css" />
+    <Content Include="apps\XConnectBI.Client\src\app\app.component.html" />
+    <Content Include="apps\XConnectBI.Client\src\app\bi-dashboard\bi-dashboard.component.css" />
+    <Content Include="apps\XConnectBI.Client\src\app\bi-dashboard\bi-dashboard.component.html" />
+    <Content Include="apps\XConnectBI.Client\src\favicon.ico" />
+    <Content Include="apps\XConnectBI.Client\src\index.html" />
+    <Content Include="apps\XConnectBI.Client\src\styles.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
   </PropertyGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets')" />
   <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
   <ProjectExtensions>
